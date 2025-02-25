@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="./base.css">
+    <link rel="stylesheet" href="./utilities.css">
+    <link rel="stylesheet" href="./login.css">
+  
+    <title>Startseite</title>
+  </head>
+  <body>
+    <header class="navbar">
+      <main class="header-content-wrapper">
+        <span class="logo">🛍️</span>
+  
+        <nav class="nav-menu-container">
+          <ul class="nav-menu">
+            <li class="nav-menu-item ">
+              <a class="nav-menu-item-link" href="#best">Beste Produkte</a>
+            </li>
+            <li class="nav-menu-item">
+              <a class="nav-menu-item-link" href="#">Kataloge</a>
+            </li>
+          </ul>
+        </nav>
+    
+        <div class="navbar-actions">
+          <form class="navbar-search">
+            <input class="input-text" type="text" name="search" id="search" placeholder="Suche einen Artikel...">
+            <button class="button" type="submit">Suche <span class="icon">🔎</span></button>
+          </form>
+          <span>
+            <a href="#">Warenkorb <span class="icon">🛒</span></a>
+          </span>
+        </div>
+      </main>
+    </header>
+  
+    <style>
+      #username{
+
+      }
+      .input-label {
+        font-size:lrem ;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 200;
+        color: darkblue;
+
+      }
+    </style>
+
+  </head>
+  <body>
+    <header>
+      <h1>Einloggen / Registrieren</h1>
+    </header>
+
+    <main>
+      <section>
+        <form>
+          <div class="login-details">
+          <label for="username";>User name</label>
+          <input type="text" name="username" id="username" for="username">
+        
+          <label for="password">Password</label>
+          <input type="password" name="password"  id="password" for="password">
+
+          <input type="button" value="continue">
+        </div>
+        </form>
+
+        <p>
+          Kein Konto ? <span>Registrieren</span>
+        </p>
+      </section>
+      <section>
+        <div class="login-image-container"> 
+        <img
+          src="./login-armoire.jpg"
+          alt="Schranksbild"
+          height="400">
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
